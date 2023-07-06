@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .top_header{
     background-color: #424141;
@@ -20,4 +21,34 @@
 }
 
 /* ----------second header ----------- */
-.second_header
+.second_header{
+    height: 100vh;
+    /* border: 2px solid red; */
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content_side{
+    color: #fff;
+
+}
+.content_side h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.content_side p{
+    padding-bottom: 20px;
+}
+.content_side .btn{
+    background-color: #FF0000;
+    padding: 15px 20px;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.content_img img{
+    width: 250px;
+}
