@@ -41,7 +41,7 @@
 .content_side p{
     padding-bottom: 20px;
 }
-.content_side .btn{
+.btn{
     background-color: #FF0000;
     padding: 15px 20px;
     color: #fff;
@@ -51,4 +51,60 @@
 }
 .content_img img{
     width: 250px;
+}
+
+
+/* -----------about section ----------- */
+.about_section{
+    padding: 40px 0;
+}
+.title{
+    text-align: center;
+    text-decoration: underline;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.left_about img{
+    width: 250px;
+}
+.right_about h1{
+    padding-bottom: 20px;
+}
+.right_about p{
+    padding-bottom: 20px;
+}
+
+/* -------------service section ---------- */
+.service_section{
+    padding: 40px 0;
+    background-color: #111111;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px 0;
+    color: #fff;
+}
+.box{
+    border: 2px solid red;
+    text-align: center;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.box img{
+    width: 80px;
+    text-align: center;
+}
+.box h2{
+    padding: 10px 0;
+}
+.box p{
+    padding-bottom: 10px;
 }
