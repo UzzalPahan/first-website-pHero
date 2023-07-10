@@ -1,110 +1,164 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  list-style: none;
 }
-.top_header{
-    background-color: #424141;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 20px;
+.top_header {
+  background-color: #424141;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
 }
-.menu ul{
-    display: flex;
+.menu ul {
+  display: flex;
 }
-.menu ul li{
-    padding-right: 40px;
-    list-style: none;
+.menu ul li {
+  padding-right: 40px;
+  list-style: none;
 }
 
 /* ----------second header ----------- */
-.second_header{
-    height: 100vh;
-    /* border: 2px solid red; */
-    background-color: #1A1A1A;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.second_header {
+  height: 100vh;
+  /* border: 2px solid red; */
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.content_side{
-    color: #fff;
-
+.content_side {
+  color: #fff;
 }
-.content_side h1{
-    padding-bottom: 20px;
-    font-size: 40px;
+.content_side h1 {
+  padding-bottom: 20px;
+  font-size: 40px;
 }
-.content_side p{
-    padding-bottom: 20px;
+.content_side p {
+  padding-bottom: 20px;
 }
-.btn{
-    background-color: #FF0000;
-    padding: 15px 20px;
-    color: #fff;
-    outline: none;
-    border: none;
-    border-radius: 5px;
+.btn {
+  background-color: #ff0000;
+  padding: 15px 20px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
 }
-.content_img img{
-    width: 250px;
+.content_img img {
+  width: 250px;
 }
-
 
 /* -----------about section ----------- */
-.about_section{
-    padding: 40px 0;
+.about_section {
+  padding: 40px 0;
 }
-.title{
-    text-align: center;
-    text-decoration: underline;
+.title {
+  text-align: center;
+  text-decoration: underline;
 }
-.about{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 40px 0;
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 0;
 }
 
-.left_about img{
-    width: 250px;
+.left_about img {
+  width: 250px;
 }
-.right_about h1{
-    padding-bottom: 20px;
+.right_about h1 {
+  padding-bottom: 20px;
 }
-.right_about p{
-    padding-bottom: 20px;
+.right_about p {
+  padding-bottom: 20px;
 }
 
 /* -------------service section ---------- */
-.service_section{
-    padding: 40px 0;
-    background-color: #111111;
+.service_section {
+  padding: 40px 0;
+  background-color: #111111;
 }
-.service{
-    display: flex;
-    justify-content: space-around;
-    gap: 20px;
-    padding: 40px 0;
-    color: #fff;
+.service_section > .title {
+  color: #fff;
 }
-.box{
-    border: 2px solid red;
-    text-align: center;
-    width: 250px;
-    padding: 20px;
-    border-radius: 10px;
+.service {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px 0;
+  color: #fff;
 }
-.box img{
-    width: 80px;
-    text-align: center;
+.box {
+  border: 2px solid red;
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: liner;
 }
-.box h2{
-    padding: 10px 0;
+.box img {
+  width: 80px;
+  text-align: center;
 }
-.box p{
-    padding-bottom: 10px;
+.box h2 {
+  padding: 10px 0;
+}
+.box p {
+  padding-bottom: 10px;
+}
+
+/* -------------second footer style ----------  */
+.second_footer {
+  background-color: #000;
+  color: #fff;
+}
+.footer_container {
+  padding: 100px 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.about_company {
+  flex-basis: 25%;
+}
+.about_company > h1 {
+  padding-bottom: 20px;
+}
+.about_company > p {
+  line-height: 30px;
+}
+
+.usefull_links {
+  flex-basis: 25%;
+}
+.usefull_links > h1 {
+  padding-bottom: 20px;
+}
+.usefull_links > ul > li {
+  padding: 10px 0;
+}
+
+.support {
+  flex-basis: 25%;
+}
+.support > h1 {
+  padding-bottom: 20px;
+}
+.support > ul > li {
+  padding: 10px 0;
+}
+
+.contact {
+  flex-basis: 25%;
+}
+
+.contact > h1 {
+  padding-bottom: 20px;
+}
+.contact> li {
+  padding: 10px 0;
 }
