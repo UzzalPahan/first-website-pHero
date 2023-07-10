@@ -162,3 +162,16 @@
 .contact> li {
   padding: 10px 0;
 }
+
+/* --------last footer section ----------  */
+footer{
+    background-color: #000;
+}
+.footer_text{
+    border-top: 1px solid #6B6B6B;
+    color: #ffff;
+    width: 1150px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+}
